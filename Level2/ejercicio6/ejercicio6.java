@@ -10,20 +10,32 @@ public class ejercicio6 {
         Empleados emp4 = new Empleados("Fabricio Perelli", 35233445, 23, 2000);
 
         Set<Empleados> empleados = new HashSet<>();
-        Map<Integer, Integer> empleados_dicc = new HashMap<>();
 
         empleados.add(emp1);
         empleados.add(emp2);
         empleados.add(emp3);
         empleados.add(emp4);
 
+        Map<Integer, Integer> empleados_dicc = cargarDiccionario(empleados);
+
+        imprimirDiccionario(empleados_dicc);
+        
+    }
+
+    public static Map<Integer, Integer> cargarDiccionario(Set<Empleados> empleados) {
+        Map<Integer, Integer> empleados_dicc = new HashMap<>();
+        
         for (Empleados empleado: empleados) {
-            empleados_dicc.put(empleado.dni, empleado.horas_trabajadas * empleado.valorphora);
+            System.out.println(empleado);
+            empleados_dicc.put(empleado.getDni(), empleado.calcularSueldo());
         }
 
-        System.out.println(empleados);
+        return empleados_dicc;
+    }
+
+    public static void imprimirDiccionario(Map<Integer, Integer> empleados_dicc) {
         for (Map.Entry<Integer, Integer> empleado: empleados_dicc.entrySet()) {
-            System.out.println("DNI: " + empleado.getKey() + "\n" + "Sueldo: $" + empleado.getValue() + "\n");
+            System.out.println("\n" + "DNI: " + empleado.getKey() + "\n" + "Sueldo: $" + empleado.getValue());
         }
     }
 }
