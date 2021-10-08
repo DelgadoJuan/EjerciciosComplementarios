@@ -8,11 +8,11 @@ public class ejercicio2 {
         int a = scan.nextInt();
         int b = scan.nextInt();
 
-        System.out.println(a + b);
-        System.out.println(a - b);
-        System.out.println(a * b);
-        System.out.println(a / b);
-        System.out.println(a % b);
+        System.out.println("El resultado de " + a + " + " + b + " = " + (a + b));
+        System.out.println("El resultado de " + a + " - " + b + " = " + (a - b));
+        System.out.println("El resultado de " + a + " * " + b + " = " + (a * b));
+        System.out.println("El resultado de " + a + " / " + b + " = " + (a / b));
+        System.out.println("El resultado de " + a + " % " + b + " = " + (a % b));
         scan.close();
     }
 

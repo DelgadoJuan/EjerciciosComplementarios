@@ -1,24 +1,24 @@
 package Level1;
+import java.math.BigInteger;
 import java.util.*;
 
 public class ejercicio4 {
-    
-    public static int factorial(int fac, int num) {
-        while (num != 0) {
-            fac = fac * num;
-            num--;
+
+    public static BigInteger factorial(BigInteger numero) {
+        if (numero.equals(BigInteger.ZERO)) {
+            return BigInteger.ONE;
+        } else {
+            return (numero.multiply(factorial(numero.subtract(BigInteger.ONE))));
         }
-        return fac;
     }
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int numero = scan.nextInt();
-        int fac = 1;
-        
 
-        System.out.println("El factorial de " + numero + " es " + factorial(fac, numero));
+        System.out.println("Ingrese el numero:");
+        BigInteger numero = scan.nextBigInteger();
+
+        System.out.println("El factorial de " + numero + " es " + factorial(numero));
         scan.close();
     }
-
 }

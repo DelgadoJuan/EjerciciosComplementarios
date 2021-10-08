@@ -7,7 +7,12 @@ public class ejercicio1 {
         Scanner scan = new Scanner(System.in);
         String nombre = scan.nextLine();
 
-        System.out.println("HOLA " + nombre);
+        saludar(nombre);
         scan.close();
     }
+
+    public static void saludar(String nombre) {
+        System.out.println("HOLA " + nombre);
+    }
+
 }
