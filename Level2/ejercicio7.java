@@ -14,7 +14,7 @@ public class ejercicio7 {
             } else if (i % 3 == 0) {
                 numeros.add("Buzz");
             } else {
-                numeros.add("" + i);
+                numeros.add(String.valueOf(i));
             }
         }
 
