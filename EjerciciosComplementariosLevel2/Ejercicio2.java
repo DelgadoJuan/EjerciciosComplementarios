@@ -1,11 +1,10 @@
-package Level2;
+package EjerciciosComplementariosLevel2;
+
 import java.util.*;
 
-public class ejercicio2 {
-
+public class Ejercicio2 {
     public static void main(String[] args) {
         List<Integer> numeros = new ArrayList<>();
-
         numeros.add(2);
         numeros.add(5);
         numeros.add(8);

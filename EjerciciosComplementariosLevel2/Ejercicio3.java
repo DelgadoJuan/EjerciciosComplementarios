@@ -1,8 +1,8 @@
-package Level2;
+package EjerciciosComplementariosLevel2;
+
 import java.util.*;
 
-public class ejercicio3 {
-
+public class Ejercicio3 {
     public static void cargarBarajaFrancesa(List<String> cartas) {
         cartas.add("A");
         cartas.add("2");

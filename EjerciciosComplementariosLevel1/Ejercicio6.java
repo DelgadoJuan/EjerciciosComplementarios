@@ -1,7 +1,7 @@
-package Level1;
+package EjerciciosComplementariosLevel1;
 import java.util.*;
 
-public class ejercicio6 {
+public class Ejercicio6 {
     
     public static int potencia(int a, int b) {
         int resultado = a;

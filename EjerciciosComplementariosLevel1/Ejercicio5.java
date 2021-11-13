@@ -1,7 +1,7 @@
-package Level1;
+package EjerciciosComplementariosLevel1;
 import java.util.*;
 
-public class ejercicio5 {
+public class Ejercicio5 {
     public static int sumasSucesivas(int a, int b) {
         int resultado = 0;
         for (int i = 0; i < b; i++) {

@@ -1,7 +1,7 @@
-package Level1;
+package EjerciciosComplementariosLevel1;
 import java.util.*;
 
-public class ejercicio8 {
+public class Ejercicio8 {
     
     public static String mensaje(String nombre, String edad, String direccion, String ciudad) {
         return (ciudad + " - " + direccion + " - " + edad + " - " + nombre);

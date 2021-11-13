@@ -1,8 +1,8 @@
-package Level2;
+package EjerciciosComplementariosLevel2;
+
 import java.util.*;
 
-public class ejercicio4 {
-
+public class Ejercicio4 {
     public static void cargarEstudiantes(List<String> estudiantes) {
         for (int i = 1; i < 13; i++) {
             estudiantes.add("Estudiante " + i);

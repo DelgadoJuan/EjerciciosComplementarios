@@ -1,8 +1,8 @@
-package Level1;
+package EjerciciosComplementariosLevel1;
 import java.math.BigInteger;
 import java.util.*;
 
-public class ejercicio4 {
+public class Ejercicio4 {
 
     public static BigInteger factorial(BigInteger numero) {
         if (numero.equals(BigInteger.ZERO)) {

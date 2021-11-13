@@ -1,4 +1,4 @@
-package Level2.ejercicio6;
+package EjerciciosComplementariosLevel2.ejercicio6;
 
 public class Empleados {
 

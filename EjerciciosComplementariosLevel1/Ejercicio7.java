@@ -1,7 +1,7 @@
-package Level1;
+package EjerciciosComplementariosLevel1;
 import java.util.*;
 
-public class ejercicio7 {
+public class Ejercicio7 {
     
     public static void main(String[] args) {
         Scanner scan= new Scanner(System.in);

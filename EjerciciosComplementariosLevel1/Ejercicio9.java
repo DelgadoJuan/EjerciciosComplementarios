@@ -1,7 +1,7 @@
-package Level1;
+package EjerciciosComplementariosLevel1;
 import java.util.*;
 
-public class ejercicio9 {
+public class Ejercicio9 {
     public static int contar(String frase, char letra) {
         int c = 0;
         for (int i = 0; i < frase.length(); i++) {

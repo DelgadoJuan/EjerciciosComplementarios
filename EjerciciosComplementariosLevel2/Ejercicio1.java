@@ -1,11 +1,10 @@
-package Level2;
+package EjerciciosComplementariosLevel2;
+
 import java.util.*;
 
-public class ejercicio1 {
-
+public class Ejercicio1 {
     public static void main(String[] args) {
         List<String> ciudades = new ArrayList<>();
-
         cargarCiudades(ciudades);
         imprimirCiudades(ciudades);
     }
@@ -28,11 +27,9 @@ public class ejercicio1 {
         scan.close();
     }
 
-
     public static void imprimirCiudades(List<String> ciudades) {
         for (int i = 0; i < ciudades.size(); i++) {
             System.out.println("#" + (i + 1) + " - " + ciudades.get(i));
         }
     }
-
 }

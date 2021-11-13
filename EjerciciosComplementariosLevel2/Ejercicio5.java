@@ -1,8 +1,8 @@
-package Level2;
+package EjerciciosComplementariosLevel2;
+
 import java.util.*;
 
-public class ejercicio5 {
-    
+public class Ejercicio5 {
     public static void main(String[] args) {
         List<Integer> horas_trabajadas = new ArrayList<>();
         List<Integer> valor_hora = new ArrayList<>();
@@ -22,7 +22,6 @@ public class ejercicio5 {
         valor_hora.add(370);
         valor_hora.add(800);
 
-
         for (int i = 0; i < horas_trabajadas.size(); i++) {
             totales = horas_trabajadas.get(i) * valor_hora.get(i);
             totalesList.add(totales);
@@ -35,5 +34,4 @@ public class ejercicio5 {
         System.out.println(totalesList);
         System.out.println("El total es: $" + total);
     }
-
 }
